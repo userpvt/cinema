@@ -1,0 +1,19 @@
+= Sample API Documentation
+
+== Introduction
+This is an example of Spring REST Docs generated documentation.
+
+== Users API
+Collection of CRUD API endpoints used to manipulate users registered in the application.
+
+=== Get Users By name
+Obtains all users by the user name.
+
+==== Sample Request
+include::{snippets}/users/getByName/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/users/getByName/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/users/getByName/curl-request.adoc[]

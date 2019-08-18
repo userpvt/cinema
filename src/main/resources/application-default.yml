@@ -1,0 +1,10 @@
+spring:
+  flyway:
+    enabled: false
+server:
+  servlet:
+    context-path: /api
+jwt:
+  header: X-Authorization
+  secret: super_secret_code
+  expiration: 900 #seconds or 15 minutes
